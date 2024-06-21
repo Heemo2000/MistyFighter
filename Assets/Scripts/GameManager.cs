@@ -4,18 +4,15 @@ using UnityEngine;
 
 namespace Game
 {
-    public enum GameState
-    {
-        None,
-        Start,
-        PlayerTurn,
-        EnemyTurn,
-        Won,
-        Lost
-    }
+    public enum GameState { None, Start, PlayerTurn, EnemyTurn, Won, Lost }
+
     public class GameManager : MonoBehaviour
     {
-        // Start is called before the first frame update
+        GameState gameState;
+        public GameState GameState
+        {
+            get { return gameState; }
+        }
         void Start()
         {
             
