@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Game;
 using UnityEngine;
 
-public class Moves : ScriptableObject
+namespace Game
 {
-    [SerializeField] string _displayName;
-    [SerializeField] string _element;
-    [SerializeField] int _attack;
-    [SerializeField] int _expToUse;
+    public class Move : ScriptableObject
+    {
+        [SerializeField]private MoveData moveData;
+    }
+
 }

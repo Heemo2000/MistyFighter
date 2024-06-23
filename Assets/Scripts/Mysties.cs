@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mystie : ScriptableObject
+namespace Game
 {
-    // Creating Fields / Initializing Field
-    [SerializeField] string _displayName;
-    [SerializeField] string _element;
-    [SerializeField] int _maxHP;
-    [SerializeField] int _maxExp;
+    public class Mystie : ScriptableObject
+    {
+        [SerializeField]private MystiesData mystiesData;
+    }
 }
+
