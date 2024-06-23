@@ -5,9 +5,9 @@ using UnityEngine;
 
 namespace Game
 {
-    public class Move : ScriptableObject
+    public class Moves : ScriptableObject
     {
-        [SerializeField]private MoveData moveData;
+        [SerializeField]private MovesData movesData;
     }
 
 }

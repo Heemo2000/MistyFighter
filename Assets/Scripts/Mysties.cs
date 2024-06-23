@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game
 {
-    public class Mystie : ScriptableObject
+    public class Mysties : ScriptableObject
     {
         [SerializeField]private MystiesData mystiesData;
     }

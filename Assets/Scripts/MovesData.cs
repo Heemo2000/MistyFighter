@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace Game
 {
-    [CreateAssetMenu(fileName = "MoveDataSO", menuName = "MoveData/MoveDataSO")]
-    public class MoveData : ScriptableObject
+    [CreateAssetMenu(fileName = "MovesDataSO", menuName = "MovesData/MovesDataSO")]
+    public class MovesData : ScriptableObject
     {
         [SerializeField] string _displayName;
         [SerializeField] string _element;
