@@ -7,9 +7,9 @@ namespace Game
     [CreateAssetMenu(fileName = "MovesDataSO", menuName = "MovesData/MovesDataSO")]
     public class MovesData : ScriptableObject
     {
-        [SerializeField] string _displayName;
-        [SerializeField] string _element;
-        [SerializeField] int _attack;
-        [SerializeField] int _expToUse;
+        [SerializeField] public string _displayName;
+        [SerializeField] public string _element;
+        [SerializeField] public int _attack;
+        [SerializeField] public int _expToUse;
     }
 }
