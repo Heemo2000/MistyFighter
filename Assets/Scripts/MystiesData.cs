@@ -11,11 +11,11 @@ namespace Game
     public class MystiesData : ScriptableObject
     {
         // Creating Fields / Initializing Field
-        [SerializeField] public string _displayName;
-        [SerializeField] public string _element;
-        [SerializeField] public int _maxHP;
-        [SerializeField] public int _maxExp;
-        [SerializeField] public Sprite image;
+        public string displayName;
+        public string element;
+        public int maxHP;
+        public int maxExp;
+        public Sprite image;
     }
 
 }
