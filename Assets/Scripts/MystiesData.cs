@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.UI;
+using UnityEngine.UIElements;
 
 
 namespace Game
@@ -9,10 +11,11 @@ namespace Game
     public class MystiesData : ScriptableObject
     {
         // Creating Fields / Initializing Field
-        [SerializeField] string _displayName;
-        [SerializeField] string _element;
-        [SerializeField] int _maxHP;
-        [SerializeField] int _maxExp;
+        public string displayName;
+        public string element;
+        public int maxHP;
+        public int maxExp;
+        public Sprite image;
     }
 
 }
